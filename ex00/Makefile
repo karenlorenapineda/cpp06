@@ -1,7 +1,7 @@
-NAME = Bureaucrat
+NAME = ScalarConverter
 
 # Archivos fuente y objetos
-SRC = main.cpp Bureaucrat.cpp
+SRC = main.cpp ScalarConverter.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:.cpp=.o)
 OBJ := $(addprefix $(OBJ_DIR)/, $(OBJ))
