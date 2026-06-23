@@ -6,14 +6,14 @@
 #    By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/23 17:50:19 by kpineda-          #+#    #+#              #
-#    Updated: 2026/06/23 17:50:20 by kpineda-         ###   ########.fr        #
+#    Updated: 2026/06/23 19:22:16 by kpineda-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ScalarConverter
+NAME = Base
 
 # Archivos fuente y objetos
-SRC = main.cpp ScalarConverter.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp
+SRC = main.cpp Base.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:.cpp=.o)
 OBJ := $(addprefix $(OBJ_DIR)/, $(OBJ))
