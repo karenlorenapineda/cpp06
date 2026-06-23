@@ -1,4 +1,16 @@
-NAME = ScalarConverter
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/06/23 17:38:24 by kpineda-          #+#    #+#              #
+#    Updated: 2026/06/23 17:38:25 by kpineda-         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = convert
 
 # Archivos fuente y objetos
 SRC = main.cpp ScalarConverter.cpp

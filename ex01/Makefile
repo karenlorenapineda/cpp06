@@ -1,7 +1,19 @@
-NAME = ScalarConverter
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/06/23 17:38:18 by kpineda-          #+#    #+#              #
+#    Updated: 2026/06/23 17:49:32 by kpineda-         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = serialize
 
 # Archivos fuente y objetos
-SRC = main.cpp ScalarConverter.cpp Form.cpp
+SRC = main.cpp Serializer.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:.cpp=.o)
 OBJ := $(addprefix $(OBJ_DIR)/, $(OBJ))
